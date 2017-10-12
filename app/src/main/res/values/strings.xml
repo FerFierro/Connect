@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!--  BluetoothChat -->
+    <string name="send">Enviar</string>
+    <string name="not_connected">No está conectado a un dispositivo</string>
+    <string name="bt_not_enabled_leaving">Bluetooth no estaba habilitado. Dejar el chat Bluetooth.</string>
+    <string name="title_connecting">conectando...</string>
+    <string name="title_connected_to">conectado a <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="title_not_connected">no conectado</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">escaneo de dispositivos...</string>
+    <string name="select_device">seleccione un dispositivo para conectarse</string>
+    <string name="none_paired">No se han emparejado dispositivos</string>
+    <string name="none_found">No se encontraron dispositivos</string>
+    <string name="title_paired_devices">Dispositivos emparejados</string>
+    <string name="title_other_devices">Otros dispositivos disponibles</string>
+    <string name="button_scan">Buscar dispositivos</string>
+
+    <!-- Options Menu -->
+    <string name="secure_connect">Conectar un dispositivo - Seguro</string>
+    <string name="insecure_connect">Conectar un dispositivo - Inseguro</string>
+    <string name="discoverable">Hacer visisble</string>
+
+    <string name="app_name">Connect</string>
+    <string name="intro_message">
+        <![CDATA[
+
+
+            Esta aplicación permite que dos dispositivos Android lleven a cabo conversaciones de texto bidireccionales
+            Bluetooth. Demuestra todas las capacidades fundamentales del API de Bluetooth, tales como:
+              (1) Exploración de otros dispositivos Bluetooth
+              (2) Consultar el adaptador Bluetooth local para los dispositivos Bluetooth emparejados
+              (3) Establecimiento de canales / zócalos RFCOMM
+              (4) Conexión a un dispositivo remoto
+              (5) Transferencia de datos a través de Bluetooth
+
+
+        ]]>
+    </string>
+
+    <string name="sample_show_log">Mostrar registro</string>
+    <string name="sample_hide_log">Ocultar registro</string>
+
+</resources>
